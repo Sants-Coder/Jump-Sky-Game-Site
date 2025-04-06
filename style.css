@@ -1,0 +1,193 @@
+:root {
+    --orange: #e76f51;
+    --orange-1: #ff810a;
+}
+
+.text-orange {
+    color: var(--orange);
+}
+
+.bg-orange {
+    background-color: var(--orange-1);
+}
+
+.btn-outline-orange {
+    --bs-btn-color: var(--orange) !important;
+    --bs-btn-border-color: var(--orange) !important;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--orange) !important;
+    --bs-btn-hover-border-color: var(--orange) !important;
+    --bs-btn-focus-shadow-rgb: 220, 53, 69;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--orange) !important;
+    --bs-btn-active-border-color: var(--orange) !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--orange) !important;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: var(--orange) !important;
+    --bs-gradient: none;
+}
+
+
+@media (min-width:1024px) {
+
+    .carousel-inner,
+    .carousel-item {
+        height: 90vh;
+    }
+}
+
+.padding {
+    padding: right 100px;
+}
+
+.navbar-brand,
+.nav-item,
+.titulo {
+
+    font-family: 'Alfa Slab One', sans-serif;
+
+}
+
+.paragrafos {
+    font-family: 'Shadows Into Light', cursive;
+    color: #3f15d696;
+}
+
+.alo {
+    text-align: center;
+}
+
+
+.accordion-button {
+    font-size: 20px;
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--orange-1) !important;
+    color: #fff;
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0) invert(100%) !important;
+
+}
+
+.accordion-item {
+    border: 1px solid var(--orange) !important;
+}
+
+#col-imagem {
+    width: 400px !important;
+}
+
+#contato {
+    text-align: center;
+}
+
+.contact-box {
+padding-bottom: 50px;
+margin-bottom: 50px;
+border-bottom: 1px solid #ff810a;
+border-radius: 0px;
+
+}
+
+
+
+
+.contact-box i {
+    color: #e76f51 !important;
+    border: #e76f51 !important;
+    width: 55px !important;
+    height: 55px !important;
+    line-height: 55px !important;
+    font-size: 24px !important;
+    margin-bottom: 20px !important;
+    
+}
+
+
+
+.contact-box p {
+    font-size: 16px;
+    
+}
+
+.contact-tile {
+    font-weight: bold;
+    color: #e76f51;
+}
+
+#msg-box p {
+    font-size: 22px;
+
+}
+
+#contact-form input [type="email"],#contact-form input [type="text"], #contact-form textarea {
+    margin-bottom: 15px !important;
+    border-radius: 0 !important; 
+ 
+} 
+
+#contact-form .botao {
+    width: 120px;
+    height: 50px;
+    background-color: #ff810a;
+    border: 1px solid #e76f51;
+    border-radius: 20px;
+    text-transform: uppercase;
+    
+
+    
+    
+}
+
+#contact-form .botao:hover {
+  color: #b110d196;
+  box-shadow: inset 0 0 0 3px #b110d196 ;
+}
+
+
+#copy-area .container{
+  
+  background-color: #3f15d696;
+  bottom:0;
+  left:0;  
+  right: 0;
+  height:px;
+
+}
+
+#copy-area .container p{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#copy-area .container a {
+    font-weight: bold;
+    color: #e76f51;
+
+}
+
+#copy-area a{
+    text-decoration: none;
+    color: #e76f51;
+}
+
+.col-lg-7col-sm-12p-5 {
+    font-weight: 600;
+}
+
+p {
+    color: #000;
+    line-height: 1.6;
+  }
+  
+  .img-thumbnail {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  }
+  
+
